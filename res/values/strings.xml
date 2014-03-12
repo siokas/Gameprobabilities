@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Πιθανότητες T.Π</string>
+    <string name="joker_content">Πάτησε εδώ για Τζόκερ</string>
+    <string name="kino_content">Πάτησε εδώ για Κίνο</string>
+    <string name="lotto_content">Πάτησε εδώ για Λόττο</string>
+    <string name="roulette_content">Πάτησε εδώ για Ρουλέττα</string>
+    <string name="Joker_Simple">Απλό Δελτίο</string>
+    <string name="Joker_Complex">Σύνθετο Δελτίο</string>
+    <string name="Joker_Numbers">x από 45</string>
+    <string name="Joker_JokerNumbers">x από 20</string>
+    <string name="LottoNums">x από 49</string>
+    <string name="Simple">Απλό</string>
+    <string name="Complex">Σύνθετο</string>
+    <string name="Red">Κόκκινο/Μαύρο</string>
+    <string name="Cols">Στήλες</string>
+    <string name="Bets">Πονταρίσματα</string>
+    <string name="BetCost">Ποσό Ποντάρ</string>
+    <string name="Count">Υπολόγισε</string>
+    <string name="Multiplier">Πολλαπλασιαστής</string>
+    <string name="Contin">Συνεχόμενες κληρώσεις</string>
+    <string name="KinoNums">Αριθμοί Kino</string>
+    <string name="RuleNums">Αριθμοί Ρουλέττας</string>
+    <string name="content_des">Image</string>
+    <string name="End">Έξοδος</string>
+    <string name="Back">Αποτελέσματα</string>
+    <string name="Info">Πληροφορίες</string>
+    <string name="Draw">Τυχαίοι Αριθμοί</string>
+    <string name="Gen">Κλήρωση</string>
+    <string name="Numbers">Αριθμοί</string>
+    <string name="Probability">Πιθανότητα</string>
+    <string name="YouWillPay">Θα πληρώσεις</string>
+    <string name="YouWillWin">Θα κερδίσεις</string>
+    <string name="KinoSuper">Επιτυχίες Κίνο</string>
+    <string name="BackTo">Επιστροφή</string>
+    <string name="DoIt">Κλήρωσε</string>
+    <string name="Thanx">Ευχαριστώ</string>
+    <string name="Choose">Επέλεξε το σύνολο των αριθμών που θα κληρωθούν τυχαία</string>
+    <string name="Error">Λάθος! Πληκτρολόγησε ξανά το Ποσό Πονταρίσματος</string>
+    <string name="LuckyDraw">Τυχαία κλήρωση αριθμών</string>
+    <string name="Joker_Help1">        1) Με την επιλογή "Απλό δελτίο", το σύστημα υπολογίζει τις πιθανότητες νίκης ενός απλού δελτίου Τζοκερ (5 αριθμούς απο τους 45 και 1 αριθμό Τζόκερ από τους 20). Το σύστημα εκτυπώνει και την τιμή μίας στήλης.</string>
+    <string name="Joker_Help2">        2) Με την επιλογή "Σύνθετο δελτίο", το σύστημα επιτρέπει στον χρήστη να εισάγει τον αριθμό επιλογών του στα αντίστοιχα πεδία αριθμών (πχ. 7 από τους 45 και 15 από τους 20) και εκτυπώνει τις αντίστοιχες πιθανότητες και το ποσό πληρωμής του δελτίου σε μία στήλη. </string>
+    <string name="Lotto_Help1">        1) Με την επιλογή "Απλό δελτίο", το σύστημα υπολογίζει τις πιθανότητες νίκης ενός απού δελτίου Λόττο (6 αριθμούς απο τους 49). Το σύστημα εκτυπώνει και την τιμή μίας στήλης.</string>
+    <string name="Lotto_Help2">        2) Με την επιλογή "Σύνθετο δελτίο", το σύστημα επιτρέπει στον χρήστη να εισάγει τον αριθμό επιλογών του στο αντίστοιχο πεδίο αριθμών (πχ. 7 από τους 49) και εκτυπώνει τις αντίστοιχες πιθανότητες και το ποσό πληρωμής του δελτίου σε 1 στήλη. </string>
+    <string name="Kino_Help">          Το συστημα υπολογίζει τις πιθανότητες επιτυχίας όλων των αριθμών της επιογης του χρήστη.</string>
+    <string name="Kino_Help1">        1) Στο πεδίο αριθμών με την ένδειξη "Αριθμοί Kino", ο χρήστης εισάγει το πλήθος των αριθμών που έχει επιλέξει για το παιχνίδι.   </string>
+    <string name="Kino_Help2">        2) Στο πεδίο αριθμών με την ένδειξη "Συνεχόμενες κληρώσεις", ο χρήστης εισάγει το πλήθος των συνεχόμενων κληρώσεων που έχει επιλέξει για το παιχνίδι. Το απλό δελτίο έχει 1 κλήρωση.</string>
+    <string name="Kino_Help3">        3) Στο πεδίο αριθμών με την ένδειξη "Πολλαπλασιαστής", ο χρήστης εισάγει τον πολλαπλασιαστή που έχει επιλέξει για το παιχνίδι. Το απλό δελτίο έχει πολλαπλασιαστή 1.  </string>
+    <string name="Roulette_Help1">        1) Με την επιλογή "Απλό", το σύστημα υπολογίζει τις πιθανότητες να κληρωθεί ένας αριθμός από αυτούς που έχει ποντάρει ο χρήστης. Στο πεδίο αριθμών με την ένδειξη "Πονταρίσματα", ο χρήστης πρέπει να εισάγει το πλήθος των πονταρισμάτων του (τον αριθμό μαρκών που τοποθέτησε σε διαφορετικους αριθμούς)
+        Στο πεδίο αριθμών με την ένδειξη "Ποσό πονταρ" ο χρήστης πρέπει να εισάγει το ποσό που πόνταρε σε κάθε ποντάρισμα. (Το πεδίο δέχεται και δεκαδικό αριθμό για τα τραπέζια με κατώτατο όριο 2,5 ευρώ)</string>
+    <string name="Roulette_Help2">        2) Με την επιλογή "Στήλες", το σύστημα υπολογίζει τις πιθανότητες να κληρωθεί ένας αριθμός από τους 12 της στήλης που έχει ποντάρει ο χρήστης. (Να σημειωθεί ότι με αυτήν την επιλογή, το σύστημα υπολογίζει και τις πιθανότηες παιχνιδιού "1–18/19–36", "Μονά/Ζυγά" και "12άδες") </string>
+    <string name="Roulette_Help3">        3) Με την επιλογή "Κόκκινο/Μαύρο", το σύστημα υπολογίζει τις πιθανότητες να κληρωθέι ένας από τους 18 αριθμούς (Μαύρο ή Κόκκινο) που έχει ποντάρει ο χρήστης.</string>
+    <string name="title_section1">Τζόκερ</string>
+    <string name="title_section2">Κίνο</string>
+    <string name="title_section3">Λόττο</string>
+    <string name="title_section4">Ρουλέττα</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="APP_ID">563087407047214</string>
+
+</resources>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    android:gravity="center_vertical|center_horizontal|center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" android:layout_gravity="center_vertical|center_horizontal|center">
+
+        <ImageButton
+            android:contentDescription="@string/joker_content"
+            android:id="@+id/joker_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/joker" android:layout_gravity="center_vertical|center_horizontal|center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" android:layout_gravity="center_vertical|center_horizontal|center">
+
+        <ImageButton
+            android:contentDescription="@string/kino_content"
+            android:id="@+id/kino_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/kino" android:layout_gravity="center_vertical|center_horizontal|center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" android:layout_gravity="center_vertical|center_horizontal|center">
+
+        <ImageButton
+            android:contentDescription="@string/lotto_content"
+            android:id="@+id/lotto_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/lotto" android:layout_gravity="center_vertical|center_horizontal|center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" android:layout_gravity="center_vertical|center_horizontal|center">
+
+        <ImageButton
+            android:contentDescription="@string/roulette_content"
+            android:id="@+id/roulette_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/roulette" android:layout_gravity="center_vertical|center_horizontal|center"/>
+
+    </LinearLayout>
+
+</LinearLayout>

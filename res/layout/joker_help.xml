@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center|center_horizontal|center_vertical"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Joker_Help1" android:gravity="center_vertical|center_horizontal|center" android:padding="10dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Joker_Help2" android:gravity="center_vertical|center_horizontal|center" android:padding="10dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+    <LinearLayout  android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_height="match_parent"
+        android:gravity="bottom" >
+        
+        <com.google.ads.AdView android:id="@+id/ad"
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:layout_alignParentBottom="true"
+                           ads:adSize="BANNER"
+                           ads:adUnitId="a1510e025a8d52b"
+                           ads:loadAdOnCreate="true"/>
+    </LinearLayout>
+
+
+</LinearLayout>

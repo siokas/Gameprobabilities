@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.gameprobabilities.siokas"
+    android:versionCode="13"
+    android:versionName="3.0" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name" >
+        <activity
+            android:name="com.google.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+        <activity
+            android:name="com.gameprobabilities.siokas.Splash"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.gameprobabilities.siokas.Joker_Res"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.gameprobabilities.siokas.JOKER_RES" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+        <activity
+            android:name="com.gameprobabilities.siokas.Lotto_Res"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.gameprobabilities.siokas.LOTTO_RES" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.gameprobabilities.siokas.Kino_Res"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.gameprobabilities.siokas.KINO_RES" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.gameprobabilities.siokas.Joker_Draw"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.gameprobabilities.siokas.JOKER_DRAW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.gameprobabilities.siokas.Lotto_Draw"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.gameprobabilities.siokas.LOTTO_DRAW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.gameprobabilities.siokas.Kino_Draw"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.gameprobabilities.siokas.KINO_DRAW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.gameprobabilities.siokas.Roulette_Draw"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.gameprobabilities.siokas.ROULETTE_DRAW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.gameprobabilities.siokas.GameProbabilitiesMain"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.gameprobabilities.siokas.MENU" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.gameprobabilities.siokas.Joker"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.gameprobabilities.siokas.JOKER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.gameprobabilities.siokas.Kino"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.gameprobabilities.siokas.KINO" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.gameprobabilities.siokas.Lotto"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.gameprobabilities.siokas.LOTTO" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.gameprobabilities.siokas.Roulette"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.gameprobabilities.siokas.ROULETTE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.gameprobabilities.siokas.Joker_Help"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.gameprobabilities.siokas.JOKER_HELP" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.gameprobabilities.siokas.Lotto_Help"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.gameprobabilities.siokas.LOTTO_HELP" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.gameprobabilities.siokas.Kino_Help"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.gameprobabilities.siokas.KINO_HELP" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.gameprobabilities.siokas.Roulette_Help"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.gameprobabilities.siokas.ROULETTE_HELP" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="com.gameprobabilities.siokas.GeoLocationService"
+            android:enabled="true" />
+
+        <activity
+            android:name="com.gameprobabilities.siokas.MainActivity"
+            android:label="@string/title_activity_main" >
+             <intent-filter>
+                <action android:name="com.gameprobabilities.siokas.MAIN_ACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
